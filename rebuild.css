@@ -1,0 +1,132 @@
+header {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between; /* Répartir l'espace horizontalement */
+    align-items: center;
+   
+    
+    /* Aligner les éléments à droite */
+    
+   
+}
+header a {
+    margin-left: 20px;
+    color: aliceblue;
+    margin: 10px;
+}
+
+
+
+
+h1 {
+    color: #eee;
+    font-size: 28px;
+    text-align: left;
+    margin-right: auto;
+    }
+
+
+
+.Container1 {
+width: 100%;
+height: 80vh;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+background-color: aqua;
+
+}
+
+.sectionDiv{
+display: flex;
+width: 100%;
+height: auto;
+gap: 8px;
+justify-content: space-around;
+}
+
+.titreSection h2{
+    width: 100px;
+   text-align: right;
+   margin: 0;
+}
+
+.lien{
+list-style: none;
+display: flex;
+justify-content: space-around;
+width: 100%;
+
+}
+.photoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap : 10px;
+    height: 500px;
+}
+
+.photoSection p{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(240, 255, 255, 0.448);
+    color: red;
+    padding: 16px;
+}
+.photoGrande{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.photoGrande>span{ 
+position: relative;
+display: inline-block;
+width: 100%;
+height: 100%;
+background: url("./img/th.jpg") center no-repeat;
+background-size: cover;
+}
+
+.photoGrande img{ 
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    }
+.autrephoto{
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    
+}
+.autrephoto span{
+    width: 49.6%;
+    background: url("./img/th.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+main{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titreSection {
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    padding-inline-end: 20px;
+    border-right: 1px solid black; /* Ajoute une bordure inférieure noire */
+}
